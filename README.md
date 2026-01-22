@@ -22,6 +22,10 @@ How to use react-pageflip and react-pdf together: https://youtu.be/TLOXVsxY0t8?s
 
 ### Forums, Examples and Docs
 
+#### The Sandbox I fiddled with:
+
+https://codesandbox.io/p/devbox/nervous-brattain-7v3dyz?workspaceId=ws_FWSygFsMgQzwoMwPkB4YrM
+
 #### docspages
 
 - https://www.npmjs.com/package/react-pageflip
@@ -48,3 +52,9 @@ How to use react-pageflip and react-pdf together: https://youtu.be/TLOXVsxY0t8?s
 ## Credits
 
 Developers: Vi-Linh Nguyen and Vi-Anh Nguyen
+
+---
+
+## Link to Canva Sample Zines
+
+- https://www.canva.com/design/DAG_Lq6lMqc/rk-8Kf3Wuiow9AdXTWy6Cw/edit?utm_content=DAG_Lq6lMqc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
