@@ -4,8 +4,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        import homepage here
+        test
       </header>
+      <div className="App-content">
+        test content
+      </div>
     </div>
   );
 }

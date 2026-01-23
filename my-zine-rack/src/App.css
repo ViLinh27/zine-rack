@@ -1,11 +1,33 @@
+:root{
+  --white:#f7e4ea;
+  --pink:#ec74ae;
+  --pinkpurple:#cc68cc;
+  --linkblue:#123e95;
+  --darkpurple:#21123d;
+
+  height: 100%;
+  margin:0;
+  padding:0;
+  background-color: var(--white);
+}
 .App {
   text-align: center;
-}
-
-.App-logo {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
 }
 .App-header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
 }
+
+.App-content
 
 .App-link {
 }
