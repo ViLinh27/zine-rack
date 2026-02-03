@@ -47,7 +47,11 @@ https://codesandbox.io/p/devbox/nervous-brattain-7v3dyz?workspaceId=ws_FWSygFsMg
 
 ---
 
-## Issues encountered
+## Notes
+
+### The react-pdf package
+
+What does pdfjs do? Configures global settings for pdf library under the hood styff, like the worker script path that runs in the background/ handles heavy lifitng for parsing and rendering pdf.
 
 ---
 
