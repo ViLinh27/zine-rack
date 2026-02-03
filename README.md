@@ -22,6 +22,8 @@ How to use react-pageflip and react-pdf together: https://youtu.be/TLOXVsxY0t8?s
 
 ### Forums, Examples and Docs
 
+https://stackoverflow.com/questions/47225553/load-more-than-1-pdf-pages-in-react-pdf
+
 #### The Sandbox I fiddled with:
 
 https://codesandbox.io/p/devbox/nervous-brattain-7v3dyz?workspaceId=ws_FWSygFsMgQzwoMwPkB4YrM
