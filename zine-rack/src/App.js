@@ -1,15 +1,14 @@
 import './App.css';
-import React, { useState, useRef } from "react";
+import React, { useState,useRef } from "react";
 import ReactDOM from "react-dom";
 import HTMLFlipBook from "react-pageflip";
 import { pdfjs, Document, Page as ReactPdfPage } from "react-pdf"; //can hold page count too
+import {GlobalWorkerOptions} from 'pdfjs-dist';
 
 const samplePDF = "../public/zine-pdfs/Pink-Red-Cute-Cherub-Galentines-Day-Party-Sample-Zine.pdf";
 //pdfjs use here
-pdfjs.GlobalWorkerOptions.workerSrc = new URL(
-  'pdfjs-dist/build/pdf.worker.min.mjs',
-  import.meta.url,
-).toString();
+pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.mjs`;
+
 
 const width = 300;
 const height = 424;
@@ -28,6 +27,8 @@ function App() {
   const onDocumentLoadSuccess = ({ numPages }) => {
     setNumPages(numPages);
   };
+
+  const bookRef=useRef();
 
   return (
     <div className="App">
