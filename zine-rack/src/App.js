@@ -3,12 +3,13 @@ import React, { useState,useRef } from "react";
 import ReactDOM from "react-dom";
 import HTMLFlipBook from "react-pageflip";
 import { pdfjs, Document, Page as ReactPdfPage } from "react-pdf"; //can hold page count too
-import {GlobalWorkerOptions} from 'pdfjs-dist';
 
-const samplePDF = "../public/zine-pdfs/Pink-Red-Cute-Cherub-Galentines-Day-Party-Sample-Zine.pdf";
+import 'react-pdf/dist/Page/AnnotationLayer.css';//for rendering
+import 'react-pdf/dist/Page/TextLayer.css';//text slection
+
+const samplePDF = "/zine-pdfs/Pink-Red-Cute-Cherub-Galentines-Day-Party-Sample-Zine.pdf";
 //pdfjs use here
 pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.mjs`;
-
 
 const width = 300;
 const height = 424;
@@ -35,7 +36,7 @@ function App() {
       <header className="App-header">
         <div className="magazine-rack">
           <div className='Book-zine'>
-            {/* <Document file={samplePDF} onLoadSuccess={onDocumentLoadSuccess}>
+            <Document file={samplePDF} onLoadSuccess={onDocumentLoadSuccess}>
               <HTMLFlipBook
                 width={width}
                 height={height}
@@ -49,8 +50,18 @@ function App() {
                   .map((page) => (
                     <Page pageNumber={page} />
                   ))}
+                  {/* {Array.from(new Array(numPages), (el, index) => (
+                  <Page key={`page_${index + 1}`} pageNumber={index + 1} />
+                ))} */}
+                {/* {new Array(numPages)
+                  .fill(0)
+                  .map((_, index) => (
+                    <div key={index}>
+                      <Page number={index + 1} />
+                    </div>
+                  ))} */}
               </HTMLFlipBook>
-            </Document> */}
+            </Document>
           </div>
           <div>test</div>
           <div>test</div>
