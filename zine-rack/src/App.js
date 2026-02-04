@@ -6,6 +6,19 @@ import { pdfjs, Document, Page as ReactPdfPage } from "react-pdf"; //can hold pa
 import 'react-pdf/dist/Page/AnnotationLayer.css';//for rendering
 import 'react-pdf/dist/Page/TextLayer.css';//text slection
 
+//import 'core-js/es/global-this';
+// Add this at the very top of your app
+const originalURL = global.URL;
+global.URL = class URL extends originalURL {
+  static parse(url, base) {
+    try {
+      return new URL(url, base);
+    } catch {
+      return null;
+    }
+  }
+};
+
 const samplePDF = "/zine-pdfs/Pink-Red-Cute-Cherub-Galentines-Day-Party-Sample-Zine.pdf";
 //pdfjs use here
 pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.mjs`;
