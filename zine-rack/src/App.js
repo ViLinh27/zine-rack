@@ -6,6 +6,8 @@ import { pdfjs, Document, Page as ReactPdfPage } from "react-pdf"; //can hold pa
 import 'react-pdf/dist/Page/AnnotationLayer.css';//for rendering
 import 'react-pdf/dist/Page/TextLayer.css';//text slection
 
+import ZineReader from './components/ZineReader';
+
 //import 'core-js/es/global-this';
 // Add this at the very top of your app
 const originalURL = global.URL;
