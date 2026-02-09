@@ -59,6 +59,11 @@ What does pdfjs do? Configures global settings for pdf library under the hood st
 
 Developers: Vi-Linh Nguyen and Vi-Anh Nguyen
 
+Sample pdfs from:
+Canva
+ontheline.trincoll.edu
+file-examples.com
+
 ---
 
 ## Link to Canva Sample Zines
