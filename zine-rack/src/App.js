@@ -1,4 +1,5 @@
 import './App.css';
+import NavBar from './components/NavBar/NavBar';
 import React from "react";
 
 import 'react-pdf/dist/Page/AnnotationLayer.css';//for rendering
@@ -13,6 +14,7 @@ function App() {
   
   return (
     <div className="App">
+      <NavBar />
       <header className="App-header">
         <div className="magazine-rack">
           <ZineReader file={samplePDF}/>
