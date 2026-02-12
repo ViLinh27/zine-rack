@@ -1,0 +1,45 @@
+:root {
+  /* main colours: */
+  --offwhite: #f7e4ea;
+  --pink: #ec74ae;
+  --purple: #cc68cc;
+  --blue: #123e95;
+  --textcolour: #21123d;
+
+  /* secondary colours */
+  --darkpink: #ca598f;
+  --darker-pink: #943563;
+  --darkpurple: #3b226a;
+
+  --brown: #8c3f2a;
+  
+  /*BACKGROUND*/
+  background-color: var(--offwhite);
+}
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: var(--blue);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: var(--offwhite);
+}
+
+.App-link {
+  color: var(--blue);
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
