@@ -64,6 +64,12 @@ Canva
 ontheline.trincoll.edu
 file-examples.com
 
+Photos:
+Photo by Lisa from Pexels: https://www.pexels.com/photo/close-up-of-strawberries-4739934/
+Photo by Ave Calvar Martinez: https://www.pexels.com/photo/red-strawberries-on-in-close-up-shot-6944172/
+Photo by Анна Романченко: https://www.pexels.com/photo/photo-of-strawberries-3186961/
+Photo by Sydney Troxell: https://www.pexels.com/photo/brown-cupcake-718754/
+
 ---
 
 ## Link to Canva Sample Zines

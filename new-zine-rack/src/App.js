@@ -1,10 +1,14 @@
 import './App.css';
 
 import NavBar from './Components/NavBar/NavBar';
+import HeroBanner from './Components/herobaner/HeroBanner';
 
 function App() {
   return (
-    <NavBar />
+    <>
+      <NavBar />
+      <HeroBanner />
+    </>
   );
 }
 
