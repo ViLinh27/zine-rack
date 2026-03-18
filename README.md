@@ -72,6 +72,10 @@ Photo by Lisa from Pexels: https://www.pexels.com/photo/close-up-of-strawberries
 Photo by Ave Calvar Martinez: https://www.pexels.com/photo/red-strawberries-on-in-close-up-shot-6944172/
 Photo by Анна Романченко: https://www.pexels.com/photo/photo-of-strawberries-3186961/
 Photo by Sydney Troxell: https://www.pexels.com/photo/brown-cupcake-718754/
+Photo by vee terzy: https://www.pexels.com/photo/blueberry-fruit-on-gray-container-70862/
+Photo by Lisa from Pexels: https://www.pexels.com/photo/closeup-photography-blueberry-fruits-1395958/
+Photo by Jacob Yavin: https://www.pexels.com/photo/a-pile-of-blueberries-12946318/
+Photo by Joshua Woroniecki: https://www.pexels.com/photo/a-person-holding-a-handful-of-blueberries-in-their-hand-8563298/
 
 ---
 
