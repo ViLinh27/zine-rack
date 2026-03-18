@@ -20,6 +20,9 @@ How to use react-pageflip and react-pdf together: https://youtu.be/TLOXVsxY0t8?s
 - Some errors along the way
 - But gives you a good idea of how to go about it.
 
+How to create an aimated hero banner in react using framer motion
+https://rangle.io/blog/how-to-create-an-animated-hero-banner-in-react-using-framer-motion
+
 ### Forums, Examples and Docs
 
 https://stackoverflow.com/questions/47225553/load-more-than-1-pdf-pages-in-react-pdf
