@@ -3,7 +3,6 @@ import { motion} from 'framer-motion';
 import ImageHolder from './ImageHolder';
 import IconHolder from './IconHolder';
 import { strawberryScene } from './Berries';
-
 function HeroBanner() {
     const currentScene = strawberryScene
   return (
