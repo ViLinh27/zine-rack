@@ -11,7 +11,7 @@ function HeroBanner() {
       blueberryScene
     );
 
-    const SLIDE_CHANGE_TIME_MS = 2000;
+    const SLIDE_CHANGE_TIME_MS = 5000;
 
     useEffect(() => {
       const timeOut = setTimeout(setCurrentScene, SLIDE_CHANGE_TIME_MS);
