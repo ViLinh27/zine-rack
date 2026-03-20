@@ -1,9 +1,12 @@
 import '../../App.css';
-import { motion, useCycle} from 'framer-motion';
+import {useCycle} from 'framer-motion';
+
 import ImageHolder from './ImageHolder';
 import IconHolder from './IconHolder';
 import { strawberryScene,blueberryScene } from './Berries';
+
 import "./HeroBanner.css";
+
 import { useEffect } from 'react';
 function HeroBanner() {
     const [currentScene, setCurrentScene] = useCycle(
@@ -19,7 +22,8 @@ function HeroBanner() {
     }, [currentScene,setCurrentScene]);
 
   return (
-    <motion.div className="hero-banner"
+    <>
+      {/* <motion.div className="hero-banner"
       initial={{ opacity: 0, y: -50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ 
@@ -27,15 +31,18 @@ function HeroBanner() {
         duration: 1,
         ease: "easeInOut"
         }}
-    >
-      <ImageHolder img={currentScene.images[0]}/>
-      <ImageHolder img={currentScene.images[1]}/>
-      <ImageHolder img={currentScene.images[2]}/>
+    > */}
+      <div className="hero-banner">
+      <ImageHolder img={currentScene.image1} className="berry-image berry-image-_one"/>
+      <ImageHolder img={currentScene.images2}  className="berry-image berry-image-_two"/>
+      <ImageHolder img={currentScene.images3}  className="berry-image berry-image-_three"/>
       <IconHolder icon={currentScene.icon} text={currentScene.text}/>
 
       <h1>Welcome to Zine Rack</h1>
       <p>Your one-stop shop for indie zines and comics</p>
-    </motion.div>
+      </div>
+    </>
+
   );
 }
 

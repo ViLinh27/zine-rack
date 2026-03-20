@@ -1,12 +1,79 @@
 .hero-banner{
+    position:relative;
+
     display:flex;
     flex-direction:column;
     justify-content:center;
     align-items:center;
+
     background-color: red;/*placeholder*/
+    height:80vh;
+    min-height: 35rem;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
-.heroBannerImg{
-    width:100px;
-    height:100px;
-    z-index:-1;
+.default-class{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
+.icon-holder{
+    position:relative;
+    z-index: 1;
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: 0 0 10px rgba(255, 253, 247, 0.5);
+
+    border-radius: 3rem;
+    padding:2rem;
+    height: 19rem;
+}
+
+.icon-holder__icon {
+    position: absolute;
+    top: 0;
+    width: 16rem;
+}
+
+.icon-holder__icon img {
+    max-width: 100%;
+}
+
+.icon-holder__text {
+    font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    bottom: 0;
+}
+
+.berry-image_one{
+    position: absolute;
+}
+
+.berry-image img{
+    max-width: 100%;
+}
+
+.berry-image_one{
+    left:-7rem;
+    width: 40vw;
+    max-width: 550px;
+}
+
+.berry-image_two{
+    top:0;
+    right:0;
+    width: 40vw;
+    max-width: 390px;
+}
+
+.berry-image_three{
+    bottom:0;
+    right:0;
+    width: 40vw;
+    max-width: 290px;
 }
